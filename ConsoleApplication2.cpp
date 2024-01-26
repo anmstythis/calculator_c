@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <math.h>
 
-
 using namespace std;
 
 int fact(int num)
@@ -35,35 +34,70 @@ int main()
             {
             case '+':
                 cout << "Введите второе число: ";
-                cin >> b;
-                cout << "\nРезультат: " << a + b << "\n";
-                break;
-            case '-':
-                cout << "Введите второе число: ";
-                cin >> b;
-                cout << "\nРезультат: " << a - b << "\n";
-                break;
-            case '*':
-                cout << "Введите второе число: ";
-                cin >> b;
-                cout << "\nРезультат: " << a * b << "\n";
-                break;
-            case '/':
-                cout << "Введите второе число: ";
-                cin >> b;
-                if (b == 0)
+                if (cin >> b)
                 {
-                    cout << "\nДелить на 0 нельзя!\n";
+                    cout << "\nРезультат: " << a + b << endl;
                 }
                 else
                 {
-                    cout << "\nРезультат: " << a / b << "\n";
+                    cout << "Э?" << endl;
+                    exit(b);
+                }
+                break;
+            case '-':
+                cout << "Введите второе число: ";
+                if (cin >> b)
+                {
+                    cout << "\nРезультат: " << a - b << endl;
+                }
+                else
+                {
+                    cout << "Э?" << endl;
+                    exit(b);
+                }
+                break;
+            case '*':
+                cout << "Введите второе число: ";
+                if (cin >> b)
+                {
+                    cout << "\nРезультат: " << a * b << endl;
+                }
+                else
+                {
+                    cout << "Э?" << endl;
+                    exit(b);
+                }
+                break;
+            case '/':
+                cout << "Введите второе число: ";
+                if (cin >> b)
+                {
+                    if (b == 0)
+                    {
+                        cout << "\nДелить на 0 нельзя!\n";
+                    }
+                    else
+                    {
+                        cout << "\nРезультат: " << a / b << endl;
+                    }
+                }
+                else
+                {
+                    cout << "Э?" << endl;
+                    exit(b);
                 }
                 break;
             case 'p':
                 cout << "Введите второе число: ";
-                cin >> b;
-                cout << "\nРезультат: " << pow(a, b) << "\n";
+                if (cin >> b)
+                {
+                    cout << "\nРезультат: " << pow(a, b) << endl;
+                }
+                else
+                {
+                    cout << "Э?" << endl;
+                    exit(b);
+                }
                 break;
             case 'r':
                 if (a < 0)
@@ -72,14 +106,14 @@ int main()
                 }
                 else
                 {
-                    cout << "\nРезультат: " << sqrt(a) << "\n";
+                    cout << "\nРезультат: " << sqrt(a) << endl;
                 }
                 break;
             case '%':
-                cout << "\nРезультат: " << a * 0.01 << "\n";
+                cout << "\nРезультат: " << a * 0.01 << endl;
                 break;
             case '!':
-                cout << "\nРезультат: " << fact(a) << "\n";
+                cout << "\nРезультат: " << fact(a) << endl;
                 break;
             default:
                 cout << "\nТакой операции не предусмотрено.\n";
@@ -94,7 +128,7 @@ int main()
         
         cout << "Продолжить работу калькулятора? 1. да \t2. нет \n";
         cin >> opt;
-        cout << "\n";
+        cout << endl;
         if (opt == 1)
         {
             continue;
@@ -105,7 +139,7 @@ int main()
         }
         else
         {
-            cout << "Звиняйте, я устал, поэтому решил, что работать не буду :)";
+            cout << "Звиняйте, я устал, поэтому решил, что работать не буду :)" << endl;
             break;
         }
     }

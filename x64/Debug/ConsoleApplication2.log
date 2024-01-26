@@ -1,4 +1,9 @@
 ﻿  ConsoleApplication2.cpp
-C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(82,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
-C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(92,18): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(44,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(56,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(68,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(87,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(99,26): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(116,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(126,18): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
   ConsoleApplication2.vcxproj -> C:\Users\My\OneDrive\Документы\конспекты\Системное программирование\ConsoleApplication2\x64\Debug\ConsoleApplication2.exe
